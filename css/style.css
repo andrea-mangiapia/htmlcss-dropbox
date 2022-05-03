@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -14,4 +13,65 @@ body {
 
 
 /*COMMON*/
+.flex-container {
+    display: flex;
+}
+/*Botton*/
+.btn {
+
+}
+
+.btn-small {
+    padding: 8px 20px;
+    font-size: 12px;
+}
+.btn-light-blue {
+    background-color: #0061ff;
+    color: white;
+}
+.btn-white {
+    background-color: white;
+}
+
+
+/*HEADER*/
+header {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header ul {
+    display: flex;
+}
+.container-nav {
+    width: 97%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.container-nav ul {
+    list-style-type: none;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.container-nav a {
+    text-decoration: none;
+}
+.main-menu li {
+    margin-right: 35px;
+}
+.secondary-menu li {
+    margin-left: 35px;
+}
+
+/*MAIN*/
+main {
+    margin-top: 60px;
+}
+
 
