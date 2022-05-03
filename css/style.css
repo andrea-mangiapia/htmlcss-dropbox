@@ -16,14 +16,42 @@ body {
 .flex-container {
     display: flex;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container-small {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0;
+
+        /*TEST*/
+        background-color: aquamarine;
+}
+h1 {
+    font-size: 65px;
+}
+h2 {
+    font-size: 40px;
+}
+img {
+    width: 100%;
+}
+
 /*Botton*/
 .btn {
+    padding: 8px 20px;
 
 }
 
 .btn-small {
-    padding: 8px 20px;
     font-size: 12px;
+}
+
+.btn-full {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
 }
 .btn-light-blue {
     background-color: #0061ff;
@@ -32,15 +60,38 @@ body {
 .btn-white {
     background-color: white;
 }
+.space-cta {
+    margin: 30px 0 20px 0;
+}
 
+/*Icon*/
+.icon-arrow {
+    font-size: 40px;
+    display: block;
+    padding-top: 40px;
+}
+
+/*Circle*/
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: inline-block;
+}
+.circle-border {
+    border: 3px solid #0061ff;
+}
 
 /*HEADER*/
 header {
+    background-color: white;
     height: 60px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 header ul {
     display: flex;
@@ -73,5 +124,78 @@ header ul {
 main {
     margin-top: 60px;
 }
+/*Jambotron*/
+.jambotron {
+    background-color: #b4d0e7;
+    height: 750px;
+    margin-bottom: 80px;
+}
+.jt-container {
+    position: relative;
+    bottom: -120px;
 
+}
+.jt-content {
+    padding-top: 50px;
+}
+.jt-col-small {
+    width: 35%;
+    padding-right: 30px;
+}
+.jt-col {
+    width: 65%;
+}
 
+/*Module Pricing Table*/
+.container-pricing-tab {
+    padding: 30px 0;
+}
+.pricing-tab {
+    justify-content: space-between;
+    margin: 30px 0;
+
+}
+.pricing-tab-col {
+    background-color: pink;
+    width: calc( (100% / 3) - 10px);
+}
+.pricing-tab-border {
+    border: 1px solid gray;
+}
+.pricing-tab-title {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 400;
+}
+.pricing-tab-title h3 {
+    font-weight: 400;
+}
+.pricing-tab-content {
+    padding: 30px 10px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.pricing-tab-content h2 {
+    font-size: 28px;
+}
+.pricing-tab-content h4 {
+    font-size: 14px;
+}
+.pricing-tab-enterprise {
+    display: inline-block;
+    width: 100%;
+    margin: 0 autp;
+}
+.pricing-tab {
+    font-weight: 700;
+}
+.pricing-tab-col-long {
+    background-color: pink;
+    width: 65%;
+}
+.pricing-tab-col-small {
+    background-color: rosybrown;
+    width: 35%;
+}
