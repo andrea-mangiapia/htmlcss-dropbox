@@ -21,12 +21,9 @@ body {
     margin: 0 auto;
 }
 .container-small {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     padding: 60px 0;
-
-        /*TEST*/
-        background-color: aquamarine;
 }
 h1 {
     font-size: 65px;
@@ -41,16 +38,12 @@ img {
 /*Botton*/
 .btn {
     padding: 8px 20px;
-
+    text-align: center;
 }
-
 .btn-small {
     font-size: 12px;
 }
-
 .btn-full {
-    width: 100%;
-    text-align: center;
     font-size: 16px;
 }
 .btn-light-blue {
@@ -153,49 +146,60 @@ main {
 .pricing-tab {
     justify-content: space-between;
     margin: 30px 0;
-
 }
-.pricing-tab-col {
-    background-color: pink;
-    width: calc( (100% / 3) - 10px);
+.pt-col {
+    width: calc( (100% / 3) - 42px);
 }
-.pricing-tab-border {
+.pt-border {
     border: 1px solid gray;
 }
-.pricing-tab-title {
+.pt-title {
     border-bottom: 1px solid gray;
     text-align: center;
     padding: 12px 0;
     font-weight: 400;
 }
-.pricing-tab-title h3 {
+.pt-title h3 {
     font-weight: 400;
 }
-.pricing-tab-content {
-    padding: 30px 10px;
-    font-size: 13px;
-    line-height: 2;
-}
-
-.pricing-tab-content h2 {
-    font-size: 28px;
-}
-.pricing-tab-content h4 {
+.pt-content {
+    padding: 30px 20px 100px 20px;
     font-size: 14px;
 }
-.pricing-tab-enterprise {
+.pt-content h2 {
+    font-size: 28px;
+}
+.pt-content h4 {
+    font-size: 14px;
+}
+.pt-content li {
+    padding: 12px 0;
+}
+.evidence-tab {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 25px 0;
+}
+.pt-content .pt-enterprise {
     display: inline-block;
     width: 100%;
     margin: 0 autp;
 }
-.pricing-tab {
-    font-weight: 700;
-}
-.pricing-tab-col-long {
-    background-color: pink;
+.pt-col-long {
     width: 65%;
 }
-.pricing-tab-col-small {
-    background-color: rosybrown;
+.pt-col-long h4 {
+    padding: 25px 0;
+}
+.pt-col-small {
     width: 35%;
+}
+.fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin,1.5em);
+    padding-left: 0;
+}
+.hr-style {
+    width: 40px;
+    padding: 30px 0;
 }
