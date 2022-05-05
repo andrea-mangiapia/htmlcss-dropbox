@@ -385,3 +385,7 @@ footer h2 {
 .language {
     font-size: 14px;
 }
+.language a {
+    color: gray;
+    text-decoration: none;
+}
