@@ -25,6 +25,13 @@ body {
     margin: 0 auto;
     padding: 60px 0;
 }
+.bkg-lightblue {
+    background-color: #b4d0e7;
+}
+.hr-style {
+    width: 40px;
+    padding: 30px 0;
+}
 h1 {
     font-size: 65px;
 }
@@ -140,7 +147,6 @@ main {
 }
 /*Jambotron*/
 .jambotron {
-    background-color: #b4d0e7;
     height: 750px;
     margin-bottom: 80px;
 }
@@ -211,10 +217,6 @@ main {
     margin-left: var(--fa-li-margin,1.5em);
     padding-left: 0;
 }
-.hr-style {
-    width: 40px;
-    padding: 30px 0;
-}
 
 /*Section Image e Text*/
 .img-col-large {
@@ -238,3 +240,89 @@ main {
 }
 
 /*Section Partner*/
+.full-container {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.partner-col-container {
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+.partner-col-main {
+    width: 40%;
+    background-color: #f5f5f5;
+
+}
+.partner-main {
+    padding: 50px;
+}
+.partner-main img {
+    width: 130px;
+}
+.partner-square {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    width: 100%;
+    height: 100%;
+}
+.square img {
+    width: 130px;
+    margin: 0 auto;
+    filter: invert(1);
+}
+.square-green {
+    background-color: #a2d39b;
+}
+.square-green:hover {
+    border: 12px solid #d0e9cd;
+}
+.square-maroon {
+    background-color: #61082b;
+}
+.square-maroon:hover {
+    border: 12px solid #9e0c46;
+}
+.square-deepskyblue {
+    background-color: #0093ce;
+}
+.square-deepskyblue:hover {
+    border: 12px solid #2bb7ee;
+}
+.square-redlight {
+    background-color: #ff1c1c;
+}
+.square-redlight:hover {
+    border: 12px solid #fd5e5e;
+}
+.square-red {
+    background-color: #ff1c1c;
+}
+.square-red:hover {
+    border: 12px solid #ff4964;
+}
+.square-lightblue {
+    background-color: #b4d0e7;
+}
+.square-lightblue:hover {
+    border: 12px solid #d4e9fa;
+}
+.square-blue {
+    background-color: #0d2481;
+}
+.square-blue:hover {
+    border: 12px solid #2949c9;
+}
+.square-yellow {
+    background-color: #ffd830;
+}
+.square-yellow:hover {
+    border: 12px solid #ffea8b;
+}
+
+
