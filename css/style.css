@@ -23,7 +23,7 @@ body {
 .container-small {
     width: 65%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 .bkg-lightblue {
     background-color: #b4d0e7;
@@ -62,6 +62,7 @@ p {
 .btn {
     padding: 8px 20px;
     text-align: center;
+    text-decoration: none;
 }
 .btn a {
     text-decoration: none;
@@ -74,6 +75,7 @@ p {
 }
 .btn-light-blue {
     background-color: #0061ff;
+    color: white;
 }
 .btn-light-blue a {
     color: white;
@@ -207,10 +209,10 @@ main {
     margin: 0 autp;
 }
 .pt-col-long {
-    width: 65%;
+    width: 70%;
 }
 .pt-col-small {
-    width: 35%;
+    width: 30%;
 }
 .fa-ul {
     list-style-type: none;
@@ -324,5 +326,7 @@ main {
 .square-yellow:hover {
     border: 12px solid #ffea8b;
 }
-
+.marron {
+    color: #61082b;
+}
 
